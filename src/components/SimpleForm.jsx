@@ -1,5 +1,6 @@
 import { Row, Col, Form, Button } from "react-bootstrap";
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 const SimpleForm = () => {
   const [formValues, setFormValues] = useState({
@@ -29,9 +30,24 @@ const SimpleForm = () => {
       email.trim() === "" ||
       check === false
     ) {
-      console.log("Debes de llenar los datos");
+      Swal.fire({
+        icon: "error",
+        title: "<h5>Debes completar todos los datos</h5>",
+      });
     } else {
-      console.log("Datos enviados");
+      setFormValues({
+        name: "",
+        lastname: "",
+        dni: "",
+        email: "",
+        check: false,
+      });
+      Swal.fire({
+        icon: "success",
+        title: "Datos enviados",
+        showConfirmButton: false,
+        timer: 1500,
+      });
     }
   };
 
