@@ -14,7 +14,9 @@ function App() {
         <SimpleForm />
       </main>
       <footer>
-        <h5>&copy; Todos los derechos reservados</h5>
+        <h6 className="text-center my-3">
+          &copy; Todos los derechos reservados
+        </h6>
       </footer>
     </>
   );
