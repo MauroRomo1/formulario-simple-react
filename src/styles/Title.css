@@ -1,0 +1,19 @@
+.containerTitle {
+  background-image: linear-gradient(
+    175deg,
+    hsl(280deg 100% 35%) 0%,
+    hsl(279deg 90% 38%) 8%,
+    hsl(278deg 83% 41%) 15%,
+    hsl(277deg 78% 43%) 23%,
+    hsl(277deg 74% 46%) 31%,
+    hsl(276deg 71% 48%) 38%,
+    hsl(275deg 68% 50%) 46%,
+    hsl(275deg 71% 52%) 54%,
+    hsl(274deg 74% 54%) 62%,
+    hsl(274deg 79% 56%) 69%,
+    hsl(273deg 83% 58%) 77%,
+    hsl(273deg 88% 60%) 85%,
+    hsl(272deg 94% 62%) 92%,
+    hsl(272deg 100% 64%) 100%
+  );
+}

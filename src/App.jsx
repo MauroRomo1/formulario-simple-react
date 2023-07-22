@@ -1,11 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../src/App.css";
+import "../src/styles/App.css";
+import TitleForm from "./components/TitleForm";
 
 function App() {
   return (
     <>
       <header>
-        <h2>Formulario simple</h2>
+        <TitleForm />
       </header>
       <main>
         <h3>Hola mundo</h3>
